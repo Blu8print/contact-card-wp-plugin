@@ -229,7 +229,7 @@ The plugin is designed to be extensible. Future versions may add filters for:
 
 For support, bug reports, or feature requests:
 
-- **Issues:** [GitHub Issues](https://github.com/yourusername/contact-card/issues)
+- **Issues:** [GitHub Issues](https://github.com/Blu8print/contact-card-wp-plugin/issues)
 - **Documentation:** See readme.txt for WordPress.org documentation
 
 ## License
@@ -253,16 +253,16 @@ GNU General Public License for more details.
 
 ## Credits
 
+- **Developer:** Sebastiaan Castenmiller (Blueprint 8)
 - **QRCode.js:** QR code generation library
 - **WordPress:** Built on the WordPress platform
-- Original template by Tomasz Maria Falkowski
 
 ## Author
 
-[Your Name]
-[Your Website]
-[Your Email]
+**Sebastiaan Castenmiller**
+Blueprint 8
+[https://blu8print.nl](https://blu8print.nl)
 
 ---
 
-Made with ❤️ for the WordPress community
+Made with ❤️ for the WordPress community by [Blueprint 8](https://blu8print.com)

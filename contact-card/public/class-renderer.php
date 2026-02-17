@@ -339,18 +339,12 @@ class Contact_Card_Renderer {
      * @return string HTML output
      */
     private function render_footer() {
-        $contact = $this->options['contact'];
-
         ob_start();
         ?>
         <div class="contact-card-footer">
             <p>
-                <?php
-                printf(
-                    esc_html__('This contact card was created for %s.', 'contact-card'),
-                    esc_html($contact['name'])
-                );
-                ?>
+                <?php esc_html_e('Powered by', 'contact-card'); ?>
+                <a href="https://blu8print.com" target="_blank" rel="noopener">Blueprint8</a>
             </p>
         </div>
         <?php
