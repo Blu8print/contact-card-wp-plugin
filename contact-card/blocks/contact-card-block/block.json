@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "contact-card/contact-card-block",
+  "title": "Contact Card",
+  "category": "widgets",
+  "icon": "id-alt",
+  "description": "Display your contact card with QR code",
+  "keywords": ["contact", "vcard", "qr code"],
+  "textdomain": "contact-card",
+  "supports": {
+    "html": false,
+    "align": true,
+    "alignWide": false
+  },
+  "attributes": {
+    "showLogo": {
+      "type": "boolean",
+      "default": true
+    },
+    "showQR": {
+      "type": "boolean",
+      "default": true
+    },
+    "showVCardButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSocialLinks": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "editorScript": "file:./index.js"
+}

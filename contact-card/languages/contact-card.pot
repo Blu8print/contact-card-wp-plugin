@@ -1,0 +1,99 @@
+# Copyright (C) 2026 Contact Card
+# This file is distributed under the same license as the Contact Card plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Card 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/contact-card\n"
+"POT-Creation-Date: 2026-02-17 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: public/class-renderer.php
+msgid "Contact Information"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Name"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Title"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Company"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Phone"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Email"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Website"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Add to Contacts"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "Scan this QR code with your phone"
+msgstr ""
+
+#: public/class-renderer.php
+msgid "This contact card was created for %s."
+msgstr ""
+
+#: public/class-widget.php
+msgid "Contact Card"
+msgstr ""
+
+#: public/class-widget.php
+msgid "Display your contact card with QR code"
+msgstr ""
+
+#: public/class-widget.php
+msgid "Title:"
+msgstr ""
+
+#: public/class-widget.php
+msgid "Configure contact information in Settings > Contact Card"
+msgstr ""
+
+#: blocks/contact-card-block/index.js
+msgid "contact"
+msgstr ""
+
+#: blocks/contact-card-block/index.js
+msgid "vcard"
+msgstr ""
+
+#: blocks/contact-card-block/index.js
+msgid "qr code"
+msgstr ""
+
+#: blocks/contact-card-block/edit.js
+msgid "Display Options"
+msgstr ""
+
+#: blocks/contact-card-block/edit.js
+msgid "Show Logo"
+msgstr ""
+
+#: blocks/contact-card-block/edit.js
+msgid "Show QR Code"
+msgstr ""
+
+#: blocks/contact-card-block/edit.js
+msgid "Show vCard Button"
+msgstr ""
+
+#: blocks/contact-card-block/edit.js
+msgid "Show Social Links"
+msgstr ""

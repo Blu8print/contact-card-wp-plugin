@@ -1,0 +1,68 @@
+# Polish translation for Contact Card
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Card 1.0.0\n"
+"POT-Creation-Date: 2026-02-17 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-02-17 00:00:00+00:00\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Contact Information"
+msgstr "Informacje Kontaktowe"
+
+msgid "Name"
+msgstr "Imię i nazwisko"
+
+msgid "Title"
+msgstr "Stanowisko"
+
+msgid "Company"
+msgstr "Firma"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Website"
+msgstr "Strona www"
+
+msgid "Add to Contacts"
+msgstr "Dodaj do kontaktów"
+
+msgid "Scan this QR code with your phone"
+msgstr "Zeskanuj ten kod QR swoim telefonem"
+
+msgid "This contact card was created for %s."
+msgstr "Ta wizytówka została stworzona dla %s."
+
+msgid "Contact Card"
+msgstr "Wizytówka"
+
+msgid "Display your contact card with QR code"
+msgstr "Wyświetl swoją wizytówkę z kodem QR"
+
+msgid "Title:"
+msgstr "Tytuł:"
+
+msgid "Configure contact information in Settings > Contact Card"
+msgstr "Skonfiguruj informacje kontaktowe w Ustawienia > Wizytówka"
+
+msgid "Display Options"
+msgstr "Opcje Wyświetlania"
+
+msgid "Show Logo"
+msgstr "Pokaż Logo"
+
+msgid "Show QR Code"
+msgstr "Pokaż Kod QR"
+
+msgid "Show vCard Button"
+msgstr "Pokaż Przycisk vCard"
+
+msgid "Show Social Links"
+msgstr "Pokaż Linki Społecznościowe"

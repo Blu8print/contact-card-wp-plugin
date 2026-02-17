@@ -1,0 +1,45 @@
+/**
+ * Contact Card Admin Styles
+ */
+
+.contact-card-logo-upload {
+    margin: 20px 0;
+}
+
+.contact-card-logo-upload .logo-preview {
+    margin-bottom: 15px;
+}
+
+.contact-card-logo-upload .no-logo {
+    background-color: #f5f5f5;
+    color: #666;
+    font-size: 14px;
+}
+
+.contact-card-logo-upload button {
+    margin-right: 10px;
+}
+
+/* Form field spacing */
+.form-table th {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.form-table td fieldset p {
+    margin: 10px 0;
+}
+
+.form-table td fieldset p:first-child {
+    margin-top: 0;
+}
+
+/* Color picker fields */
+.contact-card-color-picker {
+    max-width: 100px;
+}
+
+/* Tab navigation improvements */
+.nav-tab-wrapper {
+    margin-bottom: 20px;
+}
