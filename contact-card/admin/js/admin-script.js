@@ -97,6 +97,27 @@
             var hash = window.location.hash.substring(1);
             $('.nav-tab-wrapper a[href*="tab=' + hash + '"]').trigger('click');
         }
+
+        // Copy shortcode to clipboard
+        $(document).on('click', '.contact-card-shortcode-box', function() {
+            var $this = $(this);
+            var text = $this.text();
+
+            // Create temporary input to copy text
+            var $temp = $('<input>');
+            $('body').append($temp);
+            $temp.val(text).select();
+            document.execCommand('copy');
+            $temp.remove();
+
+            // Show copied feedback
+            var originalText = $this.text();
+            $this.addClass('copied').text('Copied!');
+
+            setTimeout(function() {
+                $this.removeClass('copied').text(originalText);
+            }, 2000);
+        });
     });
 
 })(jQuery);

@@ -54,6 +54,25 @@ class Contact_Card_Settings_Page {
 
             <?php settings_errors(); ?>
 
+            <div class="notice notice-info" style="padding: 12px 15px;">
+                <div>
+                    <strong>💡 How to Display Your Contact Card:</strong>
+                    <ul style="margin: 8px 0 0 0; list-style: none; padding: 0;">
+                        <li style="margin: 8px 0;">
+                            <strong>Shortcode:</strong>
+                            <code class="contact-card-shortcode-box" title="Click to copy">[contact_card]</code>
+                            <em style="color: #666; font-size: 12px; margin-left: 8px;">← Click to copy</em>
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <strong>Widget:</strong> Go to Appearance → Widgets and add "Contact Card" widget
+                        </li>
+                        <li style="margin: 8px 0;">
+                            <strong>Gutenberg Block:</strong> Search for "Contact Card" in the block editor (+)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
             <h2 class="nav-tab-wrapper">
                 <a href="?page=contact-card-settings&tab=contact" class="nav-tab <?php echo $this->active_tab === 'contact' ? 'nav-tab-active' : ''; ?>">
                     Contact Information

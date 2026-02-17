@@ -43,3 +43,23 @@
 .nav-tab-wrapper {
     margin-bottom: 20px;
 }
+
+/* Shortcode display box */
+.contact-card-shortcode-box {
+    background: #f0f0f1;
+    padding: 3px 8px;
+    border-radius: 3px;
+    user-select: all;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.contact-card-shortcode-box:hover {
+    background: #e0e0e1;
+}
+
+.contact-card-shortcode-box.copied {
+    background: #00a32a;
+    color: white;
+}
