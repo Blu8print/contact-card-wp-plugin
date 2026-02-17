@@ -65,10 +65,13 @@ function contact_card_activate() {
                 'fallback_text' => 'LOGO'
             ),
             'theme' => array(
-                'primary_color' => '#2271b1',
-                'secondary_color' => '#f0f0f1',
-                'accent_color' => '#ffffff',
+                'button_color' => '#2271b1',
+                'background_color' => '#f0f0f1',
+                'card_background' => '#ffffff',
                 'text_color' => '#1d2327',
+                'heading_color' => '#1d2327',
+                'label_color' => '#50575e',
+                'border_color' => '#dcdcde',
                 'font_family' => '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
                 'border_radius' => '8px'
             ),

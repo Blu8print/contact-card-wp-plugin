@@ -87,10 +87,13 @@ class Contact_Card_Renderer {
         $theme = $this->options['theme'];
 
         $css = ":root {
-            --cc-primary: {$theme['primary_color']};
-            --cc-secondary: {$theme['secondary_color']};
-            --cc-accent: {$theme['accent_color']};
+            --cc-button: {$theme['button_color']};
+            --cc-background: {$theme['background_color']};
+            --cc-card-background: {$theme['card_background']};
             --cc-text: {$theme['text_color']};
+            --cc-heading: {$theme['heading_color']};
+            --cc-label: {$theme['label_color']};
+            --cc-border: {$theme['border_color']};
             --cc-font-family: {$theme['font_family']};
             --cc-border-radius: {$theme['border_radius']};
         }";

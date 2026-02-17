@@ -4,10 +4,13 @@
  */
 
 :root {
-    --cc-primary: #2271b1;
-    --cc-secondary: #f0f0f1;
-    --cc-accent: #ffffff;
+    --cc-button: #2271b1;
+    --cc-background: #f0f0f1;
+    --cc-card-background: #ffffff;
     --cc-text: #1d2327;
+    --cc-heading: #1d2327;
+    --cc-label: #50575e;
+    --cc-border: #dcdcde;
     --cc-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     --cc-border-radius: 8px;
 }
@@ -17,7 +20,7 @@
     font-family: var(--cc-font-family);
     line-height: 1.6;
     color: var(--cc-text);
-    background-color: var(--cc-secondary);
+    background-color: var(--cc-background);
     max-width: 600px;
     margin: 30px auto;
     padding: 20px;
@@ -40,7 +43,7 @@
 }
 
 .contact-card-logo-placeholder span {
-    color: var(--cc-primary);
+    color: var(--cc-heading);
     font-size: 24px;
     font-weight: bold;
 }
@@ -53,12 +56,12 @@
 
 /* Card Styles */
 .contact-card {
-    border: 1px solid #dcdcde;
+    border: 1px solid var(--cc-border);
     border-radius: var(--cc-border-radius);
     padding: 30px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     margin-bottom: 30px;
-    background-color: var(--cc-accent);
+    background-color: var(--cc-card-background);
     text-align: center;
     transition: box-shadow 0.3s ease;
 }
@@ -84,14 +87,14 @@
     margin-right: 10px;
     display: inline-block;
     width: 90px;
-    color: #50575e;
+    color: var(--cc-label);
 }
 
 /* Button Styles */
 .contact-card-button {
     display: inline-block;
     background-color: #2271b1; /* Fallback */
-    background-color: var(--cc-primary);
+    background-color: var(--cc-button);
     color: #ffffff !important;
     padding: 12px 32px;
     text-align: center;
@@ -125,7 +128,7 @@
 a.contact-card-button,
 a.contact-card-button:link {
     background-color: #2271b1;
-    background-color: var(--cc-primary);
+    background-color: var(--cc-button);
     color: #ffffff !important;
 }
 
@@ -183,7 +186,7 @@ a.contact-card-button:focus {
 
 /* Typography */
 .contact-card-wrapper h1 {
-    color: var(--cc-text);
+    color: var(--cc-heading);
     text-align: center;
     margin-bottom: 30px;
     font-size: 28px;
@@ -191,14 +194,14 @@ a.contact-card-button:focus {
 }
 
 .contact-card-wrapper h3 {
-    color: var(--cc-text);
+    color: var(--cc-heading);
     font-size: 18px;
     font-weight: 600;
     margin-top: 0;
 }
 
 .contact-card-wrapper a {
-    color: var(--cc-primary);
+    color: var(--cc-button);
     text-decoration: none;
     transition: color 0.2s ease;
 }

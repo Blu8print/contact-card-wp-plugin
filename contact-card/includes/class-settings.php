@@ -133,12 +133,15 @@ class Contact_Card_Settings {
         // Sanitize theme settings
         if (isset($settings['theme'])) {
             $clean['theme'] = array(
-                'primary_color' => $this->sanitize_hex_color($settings['theme']['primary_color'] ?? '#ffd700'),
-                'secondary_color' => $this->sanitize_hex_color($settings['theme']['secondary_color'] ?? '#121212'),
-                'accent_color' => $this->sanitize_hex_color($settings['theme']['accent_color'] ?? '#1a1a1a'),
-                'text_color' => $this->sanitize_hex_color($settings['theme']['text_color'] ?? '#ffffff'),
-                'font_family' => sanitize_text_field($settings['theme']['font_family'] ?? 'Arial, sans-serif'),
-                'border_radius' => sanitize_text_field($settings['theme']['border_radius'] ?? '10px')
+                'button_color' => $this->sanitize_hex_color($settings['theme']['button_color'] ?? '#2271b1'),
+                'background_color' => $this->sanitize_hex_color($settings['theme']['background_color'] ?? '#f0f0f1'),
+                'card_background' => $this->sanitize_hex_color($settings['theme']['card_background'] ?? '#ffffff'),
+                'text_color' => $this->sanitize_hex_color($settings['theme']['text_color'] ?? '#1d2327'),
+                'heading_color' => $this->sanitize_hex_color($settings['theme']['heading_color'] ?? '#1d2327'),
+                'label_color' => $this->sanitize_hex_color($settings['theme']['label_color'] ?? '#50575e'),
+                'border_color' => $this->sanitize_hex_color($settings['theme']['border_color'] ?? '#dcdcde'),
+                'font_family' => sanitize_text_field($settings['theme']['font_family'] ?? '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif'),
+                'border_radius' => sanitize_text_field($settings['theme']['border_radius'] ?? '8px')
             );
         }
 
@@ -212,10 +215,13 @@ class Contact_Card_Settings {
                 'fallback_text' => 'LOGO'
             ),
             'theme' => array(
-                'primary_color' => '#2271b1',
-                'secondary_color' => '#f0f0f1',
-                'accent_color' => '#ffffff',
+                'button_color' => '#2271b1',
+                'background_color' => '#f0f0f1',
+                'card_background' => '#ffffff',
                 'text_color' => '#1d2327',
+                'heading_color' => '#1d2327',
+                'label_color' => '#50575e',
+                'border_color' => '#dcdcde',
                 'font_family' => '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
                 'border_radius' => '8px'
             ),

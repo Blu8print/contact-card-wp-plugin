@@ -7,9 +7,24 @@
 
     $(document).ready(function() {
 
-        // Initialize color pickers
+        // Initialize color pickers with individual settings
         if ($.fn.wpColorPicker) {
-            $('.contact-card-color-picker').wpColorPicker();
+            $('.contact-card-color-picker').each(function() {
+                var $input = $(this);
+                var defaultColor = $input.data('default-color') || '#2271b1';
+
+                $input.wpColorPicker({
+                    defaultColor: defaultColor,
+                    change: function(event, ui) {
+                        // Update the input value when color changes
+                        $input.val(ui.color.toString());
+                    },
+                    clear: function() {
+                        // Reset to default when cleared
+                        $input.val(defaultColor);
+                    }
+                });
+            });
         }
 
         // Media uploader for logo
