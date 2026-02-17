@@ -90,6 +90,7 @@
 /* Button Styles */
 .contact-card-button {
     display: inline-block;
+    background-color: #2271b1; /* Fallback */
     background-color: var(--cc-primary);
     color: #ffffff !important;
     padding: 12px 32px;
@@ -97,6 +98,7 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
+    border-radius: 8px; /* Fallback */
     border-radius: var(--cc-border-radius);
     border: none;
     cursor: pointer;
@@ -107,9 +109,31 @@
 
 .contact-card-button:hover {
     background-color: #135e96;
+    color: #ffffff !important;
     transform: translateY(-1px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
     text-decoration: none;
+}
+
+.contact-card-button:active,
+.contact-card-button:focus,
+.contact-card-button:visited {
+    color: #ffffff !important;
+}
+
+/* Additional specificity to override theme styles */
+a.contact-card-button,
+a.contact-card-button:link {
+    background-color: #2271b1;
+    background-color: var(--cc-primary);
+    color: #ffffff !important;
+}
+
+a.contact-card-button:hover,
+a.contact-card-button:active,
+a.contact-card-button:focus {
+    background-color: #135e96;
+    color: #ffffff !important;
 }
 
 /* QR Code Styles */
