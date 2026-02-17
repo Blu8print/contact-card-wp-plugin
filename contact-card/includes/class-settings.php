@@ -88,7 +88,9 @@ class Contact_Card_Settings {
      * @return array
      */
     public function sanitize($settings) {
-        $clean = array();
+        // Get existing settings to merge with
+        $existing = $this->get_all();
+        $clean = $existing;
 
         // Sanitize contact information
         if (isset($settings['contact'])) {
