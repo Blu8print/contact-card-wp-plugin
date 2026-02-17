@@ -7,23 +7,48 @@
 
     $(document).ready(function() {
 
-        // Initialize color pickers with individual settings
+        // Initialize each color picker independently by ID
         if ($.fn.wpColorPicker) {
-            $('.contact-card-color-picker').each(function() {
-                var $input = $(this);
-                var defaultColor = $input.data('default-color') || '#2271b1';
+            // Button color
+            $('#theme_button_color').wpColorPicker({
+                defaultColor: '#2271b1',
+                palettes: true
+            });
 
-                $input.wpColorPicker({
-                    defaultColor: defaultColor,
-                    change: function(event, ui) {
-                        // Update the input value when color changes
-                        $input.val(ui.color.toString());
-                    },
-                    clear: function() {
-                        // Reset to default when cleared
-                        $input.val(defaultColor);
-                    }
-                });
+            // Background color
+            $('#theme_background_color').wpColorPicker({
+                defaultColor: '#f0f0f1',
+                palettes: true
+            });
+
+            // Card background
+            $('#theme_card_background').wpColorPicker({
+                defaultColor: '#ffffff',
+                palettes: true
+            });
+
+            // Text color
+            $('#theme_text_color').wpColorPicker({
+                defaultColor: '#1d2327',
+                palettes: true
+            });
+
+            // Heading color
+            $('#theme_heading_color').wpColorPicker({
+                defaultColor: '#1d2327',
+                palettes: true
+            });
+
+            // Label color
+            $('#theme_label_color').wpColorPicker({
+                defaultColor: '#50575e',
+                palettes: true
+            });
+
+            // Border color
+            $('#theme_border_color').wpColorPicker({
+                defaultColor: '#dcdcde',
+                palettes: true
             });
         }
 

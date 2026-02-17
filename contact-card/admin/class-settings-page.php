@@ -373,8 +373,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_button_color"
                            name="contact_card_settings[theme][button_color]"
-                           value="<?php echo esc_attr($theme['button_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#2271b1">
+                           value="<?php echo esc_attr($theme['button_color']); ?>">
                     <p class="description">Color for the "Add to Contacts" button (default: #2271b1 - Blue)</p>
                 </td>
             </tr>
@@ -386,8 +385,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_background_color"
                            name="contact_card_settings[theme][background_color]"
-                           value="<?php echo esc_attr($theme['background_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#f0f0f1">
+                           value="<?php echo esc_attr($theme['background_color']); ?>">
                     <p class="description">Background color around the card (default: #f0f0f1 - Light Gray)</p>
                 </td>
             </tr>
@@ -399,8 +397,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_card_background"
                            name="contact_card_settings[theme][card_background]"
-                           value="<?php echo esc_attr($theme['card_background']); ?>"
-                           class="contact-card-color-picker" data-default-color="#ffffff">
+                           value="<?php echo esc_attr($theme['card_background']); ?>">
                     <p class="description">Background color of the contact card itself (default: #ffffff - White)</p>
                 </td>
             </tr>
@@ -412,8 +409,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_text_color"
                            name="contact_card_settings[theme][text_color]"
-                           value="<?php echo esc_attr($theme['text_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#1d2327">
+                           value="<?php echo esc_attr($theme['text_color']); ?>">
                     <p class="description">Main body text color (default: #1d2327 - Dark Gray)</p>
                 </td>
             </tr>
@@ -425,8 +421,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_heading_color"
                            name="contact_card_settings[theme][heading_color]"
-                           value="<?php echo esc_attr($theme['heading_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#1d2327">
+                           value="<?php echo esc_attr($theme['heading_color']); ?>">
                     <p class="description">Color for headings like "Contact Information" (default: #1d2327 - Dark Gray)</p>
                 </td>
             </tr>
@@ -438,8 +433,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_label_color"
                            name="contact_card_settings[theme][label_color]"
-                           value="<?php echo esc_attr($theme['label_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#50575e">
+                           value="<?php echo esc_attr($theme['label_color']); ?>">
                     <p class="description">Color for field labels like "Name:", "Phone:" (default: #50575e - Medium Gray)</p>
                 </td>
             </tr>
@@ -451,8 +445,7 @@ class Contact_Card_Settings_Page {
                 <td>
                     <input type="text" id="theme_border_color"
                            name="contact_card_settings[theme][border_color]"
-                           value="<?php echo esc_attr($theme['border_color']); ?>"
-                           class="contact-card-color-picker" data-default-color="#dcdcde">
+                           value="<?php echo esc_attr($theme['border_color']); ?>">
                     <p class="description">Border color around the card (default: #dcdcde - Light Gray)</p>
                 </td>
             </tr>
