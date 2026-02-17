@@ -171,7 +171,7 @@ class Contact_Card_Settings {
         }
 
         // Return default if invalid
-        return '#ffd700';
+        return '#2271b1';
     }
 
     /**
@@ -212,12 +212,12 @@ class Contact_Card_Settings {
                 'fallback_text' => 'LOGO'
             ),
             'theme' => array(
-                'primary_color' => '#ffd700',
-                'secondary_color' => '#121212',
-                'accent_color' => '#1a1a1a',
-                'text_color' => '#ffffff',
-                'font_family' => 'Arial, sans-serif',
-                'border_radius' => '10px'
+                'primary_color' => '#2271b1',
+                'secondary_color' => '#f0f0f1',
+                'accent_color' => '#ffffff',
+                'text_color' => '#1d2327',
+                'font_family' => '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+                'border_radius' => '8px'
             ),
             'display' => array(
                 'show_qr' => true,

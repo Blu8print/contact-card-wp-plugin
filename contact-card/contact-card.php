@@ -32,19 +32,19 @@ define('CONTACT_CARD_PLUGIN_BASENAME', plugin_basename(__FILE__));
 function contact_card_activate() {
     // Check if settings already exist
     if (false === get_option('contact_card_settings')) {
-        // Default settings based on existing template
+        // Default settings - empty contact info for user to fill in
         $defaults = array(
             'contact' => array(
-                'name' => 'Tomasz Maria Falkowski',
-                'first_name' => 'Tomasz',
-                'middle_name' => 'Maria',
-                'last_name' => 'Falkowski',
+                'name' => '',
+                'first_name' => '',
+                'middle_name' => '',
+                'last_name' => '',
                 'job_title' => '',
                 'company' => '',
-                'phone' => '+48502122799',
-                'email' => 'tomasz@hipnodentysta.com',
-                'website' => 'www.hipnodentysta.com',
-                'website_url' => 'http://www.hipnodentysta.com',
+                'phone' => '',
+                'email' => '',
+                'website' => '',
+                'website_url' => '',
                 'address' => array(
                     'street' => '',
                     'city' => '',
@@ -65,12 +65,12 @@ function contact_card_activate() {
                 'fallback_text' => 'LOGO'
             ),
             'theme' => array(
-                'primary_color' => '#ffd700',
-                'secondary_color' => '#121212',
-                'accent_color' => '#1a1a1a',
-                'text_color' => '#ffffff',
-                'font_family' => 'Arial, sans-serif',
-                'border_radius' => '10px'
+                'primary_color' => '#2271b1',
+                'secondary_color' => '#f0f0f1',
+                'accent_color' => '#ffffff',
+                'text_color' => '#1d2327',
+                'font_family' => '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+                'border_radius' => '8px'
             ),
             'display' => array(
                 'show_qr' => true,
