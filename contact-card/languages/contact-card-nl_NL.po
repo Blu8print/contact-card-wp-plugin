@@ -35,7 +35,7 @@ msgid "Add to Contacts"
 msgstr "Toevoegen aan contacten"
 
 msgid "Scan this QR code with your phone"
-msgstr "Scan deze QR-code met uw telefoon"
+msgstr "Scan deze QR-code met je telefoon"
 
 msgid "This contact card was created for %s."
 msgstr "Dit visitekaartje is aangemaakt voor %s."
