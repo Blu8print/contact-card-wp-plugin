@@ -1,0 +1,77 @@
+# Dutch translation for Contact Card
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Card 1.0.0\n"
+"POT-Creation-Date: 2026-02-17 00:00:00+00:00\n"
+"PO-Revision-Date: 2026-02-18 00:00:00+00:00\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Contact Information"
+msgstr "Contactgegevens"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Title"
+msgstr "Functie"
+
+msgid "Company"
+msgstr "Bedrijf"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Add to Contacts"
+msgstr "Toevoegen aan contacten"
+
+msgid "Scan this QR code with your phone"
+msgstr "Scan deze QR-code met uw telefoon"
+
+msgid "This contact card was created for %s."
+msgstr "Dit visitekaartje is aangemaakt voor %s."
+
+msgid "Contact Card"
+msgstr "Visitekaartje"
+
+msgid "Display your contact card with QR code"
+msgstr "Toon uw visitekaartje met QR-code"
+
+msgid "Title:"
+msgstr "Titel:"
+
+msgid "Configure contact information in Settings > Contact Card"
+msgstr "Configureer contactgegevens in Instellingen > Visitekaartje"
+
+msgid "contact"
+msgstr "contact"
+
+msgid "vcard"
+msgstr "vcard"
+
+msgid "qr code"
+msgstr "qr-code"
+
+msgid "Display Options"
+msgstr "Weergave-opties"
+
+msgid "Show Logo"
+msgstr "Logo weergeven"
+
+msgid "Show QR Code"
+msgstr "QR-code weergeven"
+
+msgid "Show vCard Button"
+msgstr "vCard-knop weergeven"
+
+msgid "Show Social Links"
+msgstr "Sociale links weergeven"

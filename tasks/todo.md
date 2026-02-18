@@ -246,6 +246,40 @@ Transform the standalone contact-template.php into a fully dynamic WordPress plu
 
 ---
 
+## Phase 8: Dutch Language (nl_NL)
+**Goal:** Add a Dutch translation for the contact card plugin
+
+- [x] Create `languages/contact-card-nl_NL.po` with all 21 strings translated to Dutch
+- [x] Compile `languages/contact-card-nl_NL.mo` from the PO file
+
+**Dutch translations planned:**
+| English | Dutch |
+|---------|-------|
+| Contact Information | Contactgegevens |
+| Name | Naam |
+| Title | Functie |
+| Company | Bedrijf |
+| Phone | Telefoon |
+| Email | E-mail |
+| Website | Website |
+| Add to Contacts | Toevoegen aan contacten |
+| Scan this QR code with your phone | Scan deze QR-code met uw telefoon |
+| This contact card was created for %s. | Dit visitekaartje is aangemaakt voor %s. |
+| Contact Card | Visitekaartje |
+| Display your contact card with QR code | Toon uw visitekaartje met QR-code |
+| Title: | Titel: |
+| Configure contact information in Settings > Contact Card | Configureer contactgegevens in Instellingen > Visitekaartje |
+| contact | contact |
+| vcard | vcard |
+| qr code | qr-code |
+| Display Options | Weergave-opties |
+| Show Logo | Logo weergeven |
+| Show QR Code | QR-code weergeven |
+| Show vCard Button | vCard-knop weergeven |
+| Show Social Links | Sociale links weergeven |
+
+---
+
 ## Review Section
 
 ### Implementation Summary
