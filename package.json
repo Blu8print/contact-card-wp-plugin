@@ -1,0 +1,20 @@
+{
+  "name": "contact-card-blocks",
+  "version": "1.0.0",
+  "description": "Gutenberg blocks for Contact Card plugin",
+  "scripts": {
+    "build": "wp-scripts build contact-card/blocks/contact-card-block/index.js --output-path=contact-card/blocks/build",
+    "start": "wp-scripts start contact-card/blocks/contact-card-block/index.js --output-path=contact-card/blocks/build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.0.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^13.0.0",
+    "@wordpress/blocks": "^13.0.0",
+    "@wordpress/components": "^27.0.0",
+    "@wordpress/element": "^6.0.0",
+    "@wordpress/i18n": "^5.0.0",
+    "@wordpress/server-side-render": "^5.0.0"
+  }
+}
